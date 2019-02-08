@@ -32,7 +32,7 @@ class Establishment extends Component {
     staring = () => {
         let starState = this.state.star
         this.setState({
-            //star équivaut à l'inverse de lui même c'est à dire soit à true s'il est initialement false et inversément
+            //star équivaut à l'inverse de lui même c'est à dire soit à true s'il est initialement équivalent à false et inversément
             star : !starState
             //permet de créer un simple switch d'état qui permet avec une simple condition de mettre l'icone en orange ou non 
         })
@@ -40,7 +40,7 @@ class Establishment extends Component {
     render() {
         //variable contenant l'icone star
         let star = <i className="fas fa-star"></i>
-
+        
         //créer le switch d'état
         if(this.state.star/*==true*/){ 
             star = <i className="fas fa-star StarOne"></i>
