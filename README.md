@@ -1,4 +1,4 @@
-### A Repo to exercice my self with happydrink
+# A Repo to exercice my self with happydrink
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
